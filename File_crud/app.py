@@ -6,7 +6,7 @@ def lambda_handler(event, context):
     bucket_name = 'stephen-test-bucket1'
     
     # Tên file và đường dẫn tới file trên Lambda environment
-    file_name = 'person1.txt'  # Thay đổi tên file nếu cần
+    file_name = 'person2.txt'  # Thay đổi tên file nếu cần
     
     # Nội dung của file bạn muốn tải lên
     file_content = b'Hello, world!'
